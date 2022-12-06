@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our MarketPlace</title>
+
+  <!-- bootstrap -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+
+  <link rel="icon" href="./images/kidbazz.png">
+
+  <!-- ION ICONS -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <!-- css -->
+  <link rel="stylesheet" href="market.css">
+
+</head>
+
+<body>
+  <div class="container-fluid  parse">
+    <article>
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="title-section">
+              <!-- <img src="./images/logo.svg" alt="kidbazzlogo"> -->
+
+              <div class="container d-flex flex-column justify-content-between">
+
+                <div class="row">
+                  <div class="col mt-3">
+                    <img src="./images/logo.svg" alt="kidbazzlogo">
+                  </div>
+
+                  <div class="col-md-8">
+
+                    <div class="input-group mb-3 mt-5"><input type="text" class="form-control input-text "
+                        placeholder="search products ...">
+                      <div class="input-group-append"><button class="btn  btn-lg" type="button" name="search"></button>
+
+                      </div>
+
+                    </div>
+
+                  </div>
+                  <div class="col mt-5">
+                    <a href=""><button class="filter">DONATE</button></a>
+                  </div>
+
+
+                </div>
+
+
+              </div>
+
+
+
+
+            </div>
+          </div>
+        </div>
+    </article>
+
+  </div>
+
+
+  <!-- NAVBAR GOES HERE -->
+  <nav>
+
+    <div>
+      <ul class="nav-menu">
+        <a href="./../../index.html"><li>Home</li></a>
+        <a href=""><li>Marketplace</li></a>
+        <a href="./../../PAGES/about/about.html"><li>About</li></a>  
+         <a href="./../../PAGES/contact/contact.html"><li>Contact</li></a> 
+          <a href="./../../PAGES/login/login.html"><li>Login</li></a>
+      </ul>
+    </div>
+
+  </nav>
+
+  <!-- MAIN BODY   -->
+  <div class="container-fluid  parse mt-5">
+
+    <article>
+      <!-- STICKY ITEM  -->
+      <div class="row">
+
+        <div class="col">
+
+          <div class="sidebar-item">
+            <div class="make-me-sticky">
+              <div class="row">
+                <div class="col-lg-12 p-3">
+                  <div class="stick-header">
+                    <h3 class="catego">product categories</h3>
+                  </div>
+
+                  <div>
+                    <input type="checkbox">Boys
+                  </div>
+
+                  <div>
+                    <input type="checkbox">Girls
+                  </div>
+
+                  <div>
+                    <input type="checkbox">Age & Size
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> 0 - 12 months
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> 1 - 4 y.o
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> 4 - 8 y.o
+                  </div>
+
+
+                </div>
+
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-12 p-3">
+                  <div class="stick-header">
+                    <h3>Range</h3>
+                  </div>
+
+                  <div>
+                    <p>$: <span id="demo"></span></p>
+                  </div>
+
+                  <div class="slidecontainer">
+                    <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+                    <!-- <p>Value: <span id="demo"></span></p> -->
+                  </div>
+                  <br>
+                  <div>
+                    <a href=""><button class="filter">filter</button></a>
+                  </div>
+
+
+
+
+
+
+
+
+                </div>
+
+              </div>
+
+
+              <div class="row">
+                <div class="col-lg-12 p-3">
+                  <div class="stick-header">
+                    <h3>Brands</h3>
+                  </div>
+
+                  <div>
+                    <input type="checkbox">Bershka
+
+
+                  </div>
+
+                  <div>
+                    <input type="checkbox">H&M
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> Zara
+                  </div>
+
+                  <div>
+                    <input type="checkbox"> 0 - 12 months
+                  </div>
+
+
+                </div>
+
+              </div>
+
+
+
+
+
+
+
+
+            </div>
+          </div>
+
+
+        </div>
+
+        
+
+        <!-- MARKETPLACE HOLDER BEGINS -->
+
+        <div class="col-6">
+
+          <div class="content-section ">
+            <div class="row mb-5">
+              <div class="  col-lg-4  ">
+
+                <div class="card" style="width:300">
+                  <img class="card-img-top"
+                    src="https://images.pexels.com/photos/760979/pexels-photo-760979.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:300">
+                  <img class="card-img-top"
+                    src="https://images.pexels.com/photos/207923/pexels-photo-207923.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:300">
+                  <img class="card-img-top"
+                    src="https://images.unsplash.com/photo-1599623560574-39d485900c95?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1470&q=80"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Truck</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactionsr</p> -->
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div class="row mb-5">
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://media-cldnry.s-nbcnews.com/image/upload/t_fit-720w,f_auto,q_auto:best/newscms/2021_44/1799142/517j5ignril-sl500--618437f0e28a6.jpg"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT4i1UCtLzDid_Reu4ePWFC45m1VdPVWWaUhg&usqp=CAU"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://cdn.thewirecutter.com/wp-content/media/2021/11/kidsgiftsupdates-2048px-waterblocks.jpg"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div class="row mb-5 ">
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://hips.hearstapps.com/vader-prod.s3.amazonaws.com/1604339959-51FiNQT6oRL.jpg?crop=1xw:1.00xh;center,top&resize=480:*"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://www.hellomagazine.com/imagenes/healthandbeauty/mother-and-baby/20210917121817/top-christmas-toys-for-kids-of-all-ages/0-601-247/hamleys-top-toys-2021-playmobil-city-action-z.jpg"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://media.wired.com/photos/59269b9acfe0d93c47430cee/master/w_1828,h_1371,c_limit/01-Modarri-cars-SOURCE-Modarri.jpg"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+            <div class="row mb-5 ">
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top" src="https://d1jqecz1iy566e.cloudfront.net/med4/fb426.jpg" alt="Card image"
+                    style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://www.shoprite.co.za/medias/10624393EA-checkers300Wx300H?context=bWFzdGVyfGltYWdlc3w5NDY0NnxpbWFnZS9wbmd8aW1hZ2VzL2hlYi9oOTAvOTg0NDU1MjY2MzA3MC5wbmd8MjA0ZDU4ZjQwZWNiODgwODYxODAzMmJjMzkwMjY3NDVmYTY3OWE0NGRiN2Y3MjhiY2I1YzNhNGQxODUwNDU0ZQ"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://food.fnr.sndimg.com/content/dam/images/food/products/2019/11/22/rx_dragons-love-tacos.jpeg.rend.hgtvcom.616.616.suffix/1574459089363.jpeg"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+
+            <div class="row mb-5 ">
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://i.pinimg.com/originals/b0/68/b7/b068b768634e3bd86b2461e19b00e74c.jpg" alt="Card image"
+                    style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="http://embed.cdn.pais.scholastic.com/v1/products/identifiers/isbn/9781338236132/primary/renditions/600?useMissingImage=true"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+              <div class="  col-lg-4 ">
+
+                <div class="card" style="width:400">
+                  <img class="card-img-top"
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQiIyZqEsCNYUq79jZERlJQ0CQML6nRjW8PYyt5kgQIvpto9eFHAo-rsVOkkSwFxaV3i-g&usqp=CAU"
+                    alt="Card image" style="width:100%">
+                  <div class="card-body">
+                    <h4 class="card-title">Toy</h4>
+                    <p class="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
+                      Playing with others is good for developing better social interactions</p>
+                    <a href="#" class="filter">Swap</a>
+                  </div>
+                </div>
+
+
+              </div>
+
+            </div>
+
+
+
+
+          </div>
+        </div>
+
+
+      </div>
+    </article>
+
+    <hr>
+
+
+  </div>
+
+  <footer>
+    <div class="row p-5 d-flex justify-content-center">
+      <div class="col-lg-2">
+
+        <img src="/images/logo.svg" alt=""><br><br>
+        <p>We swap high-quality toys, books and valuables <br>for kids of any age.</p><br>
+        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/fb.svg" alt="">
+        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/instagram.svg"
+          alt="">
+        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/youtube.svg"
+          alt="">
+        <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/twitter.svg"
+          alt="">
+      </div>
+
+      <div class="col-lg-2">
+        <p class="quicklinks">Quick Links</p>
+        <p>– About</p>
+        <p>– Shop</p>
+        <p>– Delivery</p>
+        <p>– News</p>
+        <p>– Contacts</p>
+
+      </div>
+
+      <div class="col-lg-2">
+        <p class="quicklinks">Help</p>
+        <p>– FAQs</p>
+        <p>– Delivery</p>
+        <p>– Payments</p>
+        <p>– Returns</p>
+        <p>– Contacts</p>
+
+      </div>
+
+      <div class="col-lg-2">
+        <p class="quicklinks">Categories</p>
+        <p>– FAQs</p>
+        <p>– Delivery</p>
+        <p>– Payments</p>
+        <p>– Returns</p>
+        <p>– Contacts</p>
+
+      </div>
+      <div class="col-lg-2">
+        <p class="quicklinks">Contacts</p>
+        <p class="number">
+          <ion-icon name="call"></ion-icon>0100-100-161
+        </p>
+        <p>
+          <ion-icon name="pin"></ion-icon>124 Souths Rohnha Suited 21,<br>
+          Kahawa, NRB
+        </p>
+        <p class="number2">
+          <ion-icon name="mail"></ion-icon>kidbaz@info.co.ke
+        </p>
+
+
+      </div>
+
+
+    </div>
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+<script src="market.js"></script>
+
+
+
+
+  
+
+</body>
+
+</html>

@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Rowdies&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.row{
+  text-align: center;
+  background-color:white;
+}
+p{
+  color: black;
+  font-family:font-family"Fredoka One", Sans-serif;
+}
+
+body{
+  background-color:white;
+}
+.container{
+  background-color:white;
+
+}
+h1{
+  text-align:center ;
+}
+
+.text-capitalize{
+  font-family: "Fredoka One", Sans-serif;
+}
+
+.number{
+  font-size: 30px;
+  color:#25a6ff;
+  font-weight: bolder;
+
+}
+.papa{
+  background-color: #25a6ff;
+}
+.number:hover{
+  color:gray;
+
+  cursor: pointer;
+
+}
+
+.quicklinks{
+  font-weight: bolder;
+}
+
+.number2{
+  font-size: 20px;
+  color:#25a6ff;
+  font-weight: bolder;
+}
+
+.parse{
+  width: 80vw;
+}
+.filter{
+  font-family: "Fredoka One", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    text-transform: uppercase;
+    line-height: 22px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    background-color: #7cc92b;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: -3px -3px 4px 0px rgb(47 47 47 / 13%) inset;
+    padding: 8px 18px 10px 18px;
+    margin: -10px 0px 0px 0px;
+    align-self: flex-start;
+   border-style: none;
+    
+}
+
+.filter:hover{
+  background-color:#ff7845;;
+}
+
+
+/* NAVBAR STYLING */
+
+nav{
+  background-color: #25a6ff;
+  height: 80px;
+}
+
+.nav-menu{
+  list-style: none;
+  display: flex;
+  text-align: center;
+
+}
+ul li a{
+  text-decoration: none !important;
+}
+
+ul li a:hover{
+  text-decoration: none !important;
+}
+
+.nav-menu li{
+   margin: 20px ;
+   color: white;
+   font-family: "Fredoka One", Sans-serif; 
+   font-size: 20px;
+    font-weight: 800;
+}
+
+.nav-menu li:hover{
+  background-color: #ff7845;
+  cursor: pointer;
+  border-style: none;
+  border-radius: 4px 4px 4px 4px;
+  height: 50px;
+  padding: 5px;
+     
+
+}
+
+
+.infoinfo{
+  color: #2c4862;
+  font-family: "Fredoka One", Sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  letter-spacing: 0px;
+}
+
+.lane{
+  color: #5b7186;
+  font-family: "Lato", Sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0px;
+}
+
+.lane:hover{
+  color: #ff7845;
+}
+
+.please{
+  color: #e5f5ff;
+  font-family: "Fredoka One", Sans-serif;
+  font-size: 50px;
+  font-weight: 400;
+  line-height: 31px;
+  letter-spacing: 0px;
+  text-shadow: 4px 10px 2px rgb(53 66 109 / 15%);
+}
+
+.if-you{
+  color: #e5f5ff;
+    font-family: "Fredoka One", Sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 31px;
+    letter-spacing: 0px;
+    text-shadow: 4px 10px 2px rgb(53 66 109 / 15%);
+}
+
+
+
+.subscribe{
+  width: 150px;
+  height: 50px;
+  background-color: #ff589b;
+  color: #ffffff;
+  font-family: "Fredoka One", Sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    border-radius: 4px 4px 4px 4px;
+    padding: 8px 18px 10px 18px;
+    margin: -10px 0px 0px 0px;
+  }
+
+  .newsletter{
+    height: ;
+    background-color: #25a6ff;
+  }
+
+  input{
+    width: 400px;
+    padding: 12px 20px 14px 20px;
+    margin: 0px 10px 0px 0px;
+    border-radius: 4px 4px 4px 4px;
+    /* background-color: rgba(255,255,255,0.2); */
+    color: #ffffff;
+    font-family: "Lato", Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    border-style: solid;
+    border-width: 0px 0px 0px 0px;
+    box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 50%);
+  }
