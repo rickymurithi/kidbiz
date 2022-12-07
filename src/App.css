@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Rowdies&display=swap');
+@import url('https:fonts.googleapis.com/css2?family=Fredoka+One&family=Lobster&family=Montserrat&family=Open+Sans:ital,wght@1,300&family=Rowdies&display=swap');
 
 *{
   margin: 0;
@@ -6,14 +6,12 @@
   box-sizing: border-box;
 }
 
-
-
 /* icons */
 ion-icon{
   color: gray;
   font-size: 25px;
   padding-right: 5px;
- 
+
 }
 
 .section-one{
@@ -36,9 +34,9 @@ ion-icon{
     box-shadow: -3px -3px 4px 0px rgb(47 47 47 / 13%) inset;
     padding: 8px 18px 10px 18px;
     margin: -10px 0px 0px 0px;
-    align-self: flex-start;
+    align-self: flex;
    border-style: none;
-    
+   
 }
 
 .filter:hover{
@@ -70,7 +68,7 @@ ul li a:hover{
 
 .nav-menu li{
    margin: 20px ;
-   color: white;
+   color: whitesmoke;
    font-family: "Fredoka One", Sans-serif; 
    font-size: 20px;
     font-weight: 800;
@@ -85,30 +83,9 @@ ul li a:hover{
   height: 50px;
   padding: 5px;
   text-decoration: none  !important;
-     
+    
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* MAIN BODY STARTS */
 
@@ -116,7 +93,7 @@ ul li a:hover{
 .welcome{
   height: 70vh;
   width: 100vw;
-  background-image: url(https://www.dealfuel.com/wp-content/uploads/2017/07/CSS-Cloud-Animation-Background.gif);
+  background-image: url('https:www.dealfuel.com/wp-content/uploads/2017/07/CSS-Cloud-Animation-Background.gif');
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -131,14 +108,15 @@ ul li a:hover{
 }
 
 .for-you2{
-  font-size: 20px;
+  font-size: 10px;
   color: #2c4862;
   font-family: "Fredoka One", Sans-serif;
-  font-size: 40px;
+  font-size: 30px;
   font-weight: 400;
-  line-height: 48px;
+  line-height: 40px;
   letter-spacing: 0px;
   text-shadow: 4px 10px 2px rgb(53 66 109 / 15%);
+  padding-bottom: 20px;
 }
 
 /* circle begins */
@@ -161,7 +139,7 @@ ul li a:hover{
 }
 
 .discount{
-  background-image: url(https://thumbs.gfycat.com/WhisperedEllipticalCow-size_restricted.gif);
+  background-image: url(https:thumbs.gfycat.com/WhisperedEllipticalCow-size_restricted.gif);
 }
 
 .btn4{
@@ -194,7 +172,7 @@ span{
   font-family: "Fredoka One", Sans-serif;
     font-size: 16px;
     font-weight: 800;
-    
+   
     line-height: 22px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -205,7 +183,7 @@ span{
     margin: -10px 0px 0px 0px;
     align-self: flex-start;
    border-style: none;
-    
+   
 }
 
 .card1{
@@ -229,7 +207,7 @@ font-size: 40px;
   font-family: "Fredoka One", Sans-serif;
     font-size: 16px;
     font-weight: 800;
-    
+   
     line-height: 22px;
     letter-spacing: 0px;
     color: #ffffff;
@@ -293,11 +271,13 @@ font-size: 40px;
 .newsletter{
   height: 40vh;
   background-color: #25a6ff;
+  text-align: center;
 }
 
 
 
 input{
+    /* position: flex; */
     width: 400px;
     padding: 12px 20px 14px 20px;
     margin: 0px 10px 0px 0px;
@@ -310,20 +290,21 @@ input{
     line-height: 22px;
     letter-spacing: 0px;
     border-style: solid;
-    border-width: 0px 0px 0px 0px;
+    border-width: px 0px 0px 0px;
     box-shadow: 0px 0px 0px 0px rgb(0 0 0 / 50%);
 }
 
 
-  
+ 
 
 
-input ::placeholder{
-  color:white;
+.input ::placeholder{
+  color:#ff589b;
 
 }
 
 .subscribe{
+ 
   width: 150px;
   height: 50px;
   background-color: #ff589b;
@@ -352,6 +333,7 @@ input ::placeholder{
   color: #e5f5ff;
     font-family: "Fredoka One", Sans-serif;
     font-size: 50px;
+    padding: 6px;
     font-weight: 400;
     line-height: 31px;
     letter-spacing: 0px;
@@ -363,6 +345,14 @@ input ::placeholder{
 
 
 /* FOOTER STYLING */
+
+
+
+
+.quicklinks {
+  position: inline;
+  
+}
 
 .number{
   font-size: 30px;
@@ -380,6 +370,7 @@ input ::placeholder{
 
 .quicklinks{
   font-weight: bolder;
+  
 }
 
 .number2{
@@ -388,3 +379,102 @@ input ::placeholder{
   font-weight: bolder;
 
 }
+h2 {
+  text-align: center;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+h1{
+    text-align: center;
+}
+
+.card{
+    background-color: #25a6ff;
+}
+
+.row{
+    text-align: center;
+    
+}
+
+.number{
+    font-size: 30px;
+    color:#25a6ff;
+    font-weight: bolder;
+  
+  }
+  
+  .number:hover{
+    color:gray;
+  
+    cursor: pointer;
+  
+  }
+  
+  .quicklinks{
+    font-weight: bolder;
+  }
+  
+  .number2{
+    font-size: 20px;
+    color:#25a6ff;
+    font-weight: bolder;
+    
+  
+  }
+  .parse{
+    width: 100vw;
+  
+  }
+  .filter{
+
+    font-family: "Fredoka One", Sans-serif;
+      font-size: 16px;
+      font-weight: 800;
+      text-transform: uppercase;
+      line-height: 22px;
+      letter-spacing: 0px;
+      color: #ffffff;
+      background-color: #7cc92b;
+      border-radius: 4px 4px 4px 4px;
+      box-shadow: -3px -3px 4px 0px rgb(47 47 47 / 13%) inset;
+      padding: 8px 18px 10px 18px;
+      margin: -10px 0px 0px 0px;
+      align-self: flex-start;
+     border-style: none;
+      
+  }
+  
+  .filter:hover{
+    background-color:#ff7845;;
+    
+  }
+
+
+
+  /* edit */
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  
+  h1{
+      text-align: center;
+      
+  }
+  
+  .card{
+      background-color: #25a6ff;
+      
+  }
+  
+  
