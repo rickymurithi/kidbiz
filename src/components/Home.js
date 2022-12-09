@@ -77,7 +77,7 @@ function Home() {
   
          <ul class="nav-menu">
         <a href="./../../index.html"><li>Home</li></a>
-        <a href="/"><li>About</li></a>
+        <a href="./../../PAGES/about/about.html"><li>About</li></a>
         <a href="./../../PAGES/login/login.html"><li>Login</li></a>
         <a href="./../../PAGES/marketplace/market.html"><li>Marketplace</li></a>
          <a href="./../../PAGES/contact/contact.html"><li>Contact</li></a> 
@@ -111,7 +111,7 @@ function Home() {
     </section>
 
     {/* About */}
-    <div class="container  mt-5">
+    {/* <div class="container  mt-5">
     <div class="row">
 
      
@@ -133,7 +133,7 @@ function Home() {
 
 
   </div>
-
+ */}
   
   <tr></tr>
   <footer>
@@ -150,6 +150,9 @@ function Home() {
         <img src="https://ld-wp73.template-help.com/woocommerce/prod_24608/v2/wp-content/uploads/2019/06/twitter.svg"
           alt=""></img>
       </div>
+
+
+
       
 
       <div className="col-lg-2">

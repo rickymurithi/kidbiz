@@ -83,6 +83,14 @@ h1{
     text-align: center;
   
   }
+
+  .for-you{
+    font-size: 100px;
+    color: #ff7845;
+    font-weight: bolder;
+    text-shadow: 4px 10px 2px rgb(53 66 109 / 15%);
+    font-family: "Fredoka One", Sans-serif;
+  }
   
   .nav-menu li{
      margin: 20px ;
@@ -106,6 +114,7 @@ h1{
 
 .we-know{
   color: #2c4862;
+  padding: 20px;
   font-family: "Fredoka One", Sans-serif;
   font-size: 40px;
   font-weight: 400;
@@ -118,7 +127,7 @@ h1{
 
 .last-para{
   /* text-align: center; */
-    color: #5b7186;
+    color: #000000;
     font-family: "Lato", Sans-serif;
     font-size: 18px;
     font-weight: 400;
@@ -128,3 +137,14 @@ h1{
     /* max-width: 770px; */
 }
 
+.for-you2{
+  font-size: 10px;
+  color: #2c4862;
+  font-family: "Fredoka One", Sans-serif;
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0px;
+  text-shadow: 4px 10px 2px rgb(53 66 109 / 15%);
+  padding-bottom: 20px;
+}
