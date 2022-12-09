@@ -135,6 +135,27 @@ function Home() {
   </div>
  */}
   
+  <section class="newsletter d-flex align-items-center justify-content-center">
+
+    <div class="row text-center ">
+      <div class="col">
+        <p class="sub-text">subscribe to</p>
+        <div>
+          <h2 class="news-text">Newsletter</h2>
+        </div><tr></tr>
+
+
+        <div class="news">
+
+
+        </div>
+        <input type="text" placeholder="YOUR EMAIL"></input>
+        <button class="subscribe">SUBSCRIBE </button>
+
+
+      </div>
+    </div>
+  </section>
   <tr></tr>
   <footer>
     <div className="row p-5 d-flex justify-content-center">
