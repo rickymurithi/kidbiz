@@ -52,10 +52,16 @@ nav{
 }
 
 .nav-menu{
+  color: whitesmoke;
   list-style: none;
   display: flex;
   text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
 
+}
+.nav-link{
+  color: whitesmoke;
 }
 
 ul li a{
@@ -477,4 +483,32 @@ h1{
       
   }
   
+
+
+  .we-know{
+    color: #2c4862;
+    font-family: "Fredoka One", Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0px;
+  
+  }
+  
+  
+  
+  .last-para{
+    /* text-align: center; */
+      color: #5b7186;
+      font-family: "Lato", Sans-serif;
+      font-size: 18px;
+      font-weight: 400;
+      /* line-height: 26px; */
+      letter-spacing: 0px;
+      /* width: 770px; */
+      /* max-width: 770px; */
+  }
+  
+  
+
   

@@ -1,18 +1,28 @@
 import logo from '../src/img/logo.png';
 import "./App.css";
 import "./index.css"
-import Home from './components/Home'
-import About from './pages/About';
-
+import Market from './components/Market';
+import Home from './components/Home';
+import Login3 from './components/login';
+import About from './components/About';
+// import {  Router, Routes, Route } from 'react-router-dom';
 function App() {
+
+
   return (
-    <div className="App">
-      <header className="App-header">
-         {/* <img src={logo} className="App-logo" alt="logo" />  */}
+    <div>
+     
         <Home/>
         {/* <About/> */}
-      </header>
-    </div>
+          {/* <Router>
+            <Routes>
+            <Route path="/About" element= {<About />}/>
+            </Routes>
+          </Router> */}
+        
+     </div>
+
+    
   );
 }
 

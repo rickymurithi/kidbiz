@@ -1,58 +1,38 @@
 import React from 'react'
-import logo from "../img/logo.png";
-import { NavLink} from 'react-router-dom';
-import { CDBFooter } from 'cdbreact';
-import child from "../img/child.png";
+import logo from "../img/logo.png"; 
 
 
-
-
-
-function Home() {
-
-  // function let(){
-  //   return(
-  //     alert('thank you for subscribing')
-  //   )
-  // }
-
+function About (){
     return (
-        <div>
-      
-        <section className="section-one">
-  
-  
-  
-  <div className="container-fluid  parse">
+        <>
+            <div class="container-fluid  parse">
     <article>
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col">
-            <div className="title-section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col">
+            <div class="title-section">
 
 
-              <div className="container d-flex fex-column justify-content-between">
+              <div class="container d-flex flex-column justify-content-between">
 
-                <div className="row">
-                   <div className="col mt-3"> <img src={logo} alt="kidbazzlogo"></img> 
+                <div class="row">
+                  <div class="col mt-3">
+                    <img src="/PAGES/about/Images/logo.svg" alt="kidbazzlogo"></img>
+                  </div>
 
-                  </div> 
+                  <div class="col-md-8">
 
-                  <div className="col-md-8">
-
-                    <div className="input-group mb-3 mt-5"><input type="text" className="form-control input-text "
+                    <div class="input-group mb-3 mt-5"><input type="text" class="form-control input-text "
                         placeholder="search products ..."></input>
-                      <div className="input-group-append"><button className="btn  btn-lg" type="button" name="search"></button>
+                      <div class="input-group-append"><button class="btn  btn-lg" type="button" name="search"></button>
 
                       </div>
 
                     </div>
-                    </div>
-                
 
                   </div>
-                  <div className="col mt-5">
-                    <a href="/"><button className="filter">DONATE</button></a>
+                  <div class="col mt-5">
+                    <a href=""><button class="filter">DONATE</button></a>
                   </div>
 
 
@@ -67,74 +47,68 @@ function Home() {
             </div>
           </div>
         </div>
+        </div>
     </article>
 
   </div>
 
-           
-         <nav className=" nav-menu">
-         <ul class="nav-menu">
-  
-         <ul class="nav-menu">
+  <nav>
+
+    <div>
+      <ul class="nav-menu">
         <a href="./../../index.html"><li>Home</li></a>
-        <a href="/"><li>About</li></a>
-        <a href="./../../PAGES/login/login.html"><li>Login</li></a>
         <a href="./../../PAGES/marketplace/market.html"><li>Marketplace</li></a>
+        <a href="/"><li>About</li></a>  
          <a href="./../../PAGES/contact/contact.html"><li>Contact</li></a> 
-          
+          <a href="./../../PAGES/login/login.html"><li>Login</li></a>
       </ul>
-      </ul>
-           
-          
-        </nav>
-         <div className="toyss">
-        <div className="container-fluid">
-      <div  className="welcome d-flex justify-content-center align-items-center h-50">
-        <div className="mt-5 align-items-centre w-20">
-        
-          <h1 className="for-you">TOYS FOR U!</h1>
-          <p className="for-you2">Bring happiness to your children with our help. <tr>Swap interesting toys and storybooks
-            using our application .
-            <tr></tr>You need a toy we got it</tr>
-            Kidbiz we make your kid smile</p>
-          <a href="/"><button className ="filter">Visit Now</button></a>
-          
-        </div>
-    
-         <img src={child} className="" alt="" width="260px"></img>  
-      </div>
-    
-      
-
-    </div> 
     </div>
-    </section>
 
-    {/* About */}
-    <div class="container  mt-5">
+  </nav>
+
+
+{/* About */}
+
+  <div class="container  mt-5">
     <div class="row">
 
-     
-    </div> 
+      <h1  class="we-know">We know how to <tr></tr>
+        suprise your kids</h1>
+      <div class=" col-md-6 col-lg-4 my-3">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/1569174/pexels-photo-1569174.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"  ></img>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-8 my-3">
+        <div class="card">
+          <img src="https://images.pexels.com/photos/1866654/pexels-photo-1866654.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt=""></img>
 
+        </div>
+      </div>
+    </div>
+              
     <h1 class="we-know">YOUR TOY SWAP CENTER </h1>
 
     <div class="last-para   text-align-align">
      
-      <h4>KidBaz provides its Users, Whatever the age or the type of toy the right environment to swap, get or give by
+      <p>KidBaz provides its Users, Whatever the age or the type of toy the right environment to swap, get or give by
         helping fulfill their exact specifications and demands. Our application focuses on providing our users the suitable
         environment by offering our user the Simplicity and easy swap through facilities. Our application provides a GPS
-        locator in order to help our customer locate each other easily</h4>
+        locator in order to help our customer locate each other easily</p>
     </div>
-    <h1  class="we-know">We know how to <tr></tr>
-        suprise your kids</h1>
    
     
 
 
   </div>
 
-  
+ 
+
+
+
+
+
+
   <tr></tr>
   <footer>
     <div className="row p-5 d-flex justify-content-center">
@@ -200,10 +174,8 @@ function Home() {
        <h6>2022 @ kidbiz@info</h6>
     </div>
     </footer>     
-   
-</div>
-    
-    );
-  }
-  
-  export default Home;
+        </>
+    )
+}
+
+export default About;

@@ -1,4 +1,4 @@
-///login////
+// ///login////
 // $('form#contactform').submit(function (event) {
 //     event.preventDefault();
 //     var email= $('#typeEmailX-2').val();
