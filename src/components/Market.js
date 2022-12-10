@@ -5,7 +5,7 @@ function Market(){
   return(
     <>
   
-{/* <div className="row">
+ <div className="row">
 
 <div className="col">
 
@@ -354,7 +354,7 @@ function Market(){
             <h4 className="card-title">Toy</h4>
             <p className="card-text">Toy trucks are fun to play alone but they are more fun when played with others.
               Playing with others is good for developing better social interactions</p>
-            <a href="#" className="filter">Swap</a>
+            <a href="" className="filter">Swap</a>
           </div>
         </div>
 
@@ -404,7 +404,7 @@ function Market(){
 </div>
 
 
-</div> */}
+</div> 
     </>
   )
 }
