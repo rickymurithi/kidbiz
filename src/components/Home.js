@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from "../img/logo.png";
-import { NavLink} from 'react-router-dom';
+import {Link} from 'react-router-dom';
+import './LoginSignup7'
 import { CDBFooter } from 'cdbreact';
 import child from "../img/child.png";
 
@@ -73,12 +74,12 @@ function Home() {
 
            
          <nav className=" nav-menu">
-         <ul class="nav-menu">
+         <ul className="nav-menu">
   
-         <ul class="nav-menu">
+         <ul className="nav-menu">
         <a href="./../../index.html"><li>Home</li></a>
         <a href="./../../PAGES/about/about.html"><li>About</li></a>
-        <a href="./../../PAGES/login/login.html"><li>Login</li></a>
+        <a href="/"><li>Login</li></a>
         <a href="./../../PAGES/marketplace/market.html"><li>Marketplace</li></a>
          <a href="./../../PAGES/contact/contact.html"><li>Contact</li></a> 
           
