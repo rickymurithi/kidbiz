@@ -4,8 +4,7 @@ import React from 'react'
 function Market(){
   return(
     <>
-  
- <div className="row">
+    <div className="row">
 
 <div className="col">
 
