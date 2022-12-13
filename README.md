@@ -1,5 +1,7 @@
 # kidbizz
+-YOUR TOY SWAP CENTRE
 ### By Ian C., Emmanuel K., Awadh H., Silvia W. and Erick M.
+
 ## Table of content
 - Description
 - Setup and Installation instructions
@@ -8,8 +10,8 @@
 - Authors
 - Live link
 ## Description
-The website is a prototype for Hemingways Hotel, an e-commerce platform supporting timely, reliable, booking, updates, luxurious offers and services for all our esteemed clienteles.
-![Screenshot1]()
+The website is a Toy center where users can swap toys with other people and even buy toys books and other useful things from other users.
+
 # Setup and installation instructions
 - Clone the repository to your computer from https://github.com/rickymurithi/kidbiz
 - Change into the the folder and run npm install.
@@ -17,12 +19,13 @@ The website is a prototype for Hemingways Hotel, an e-commerce platform supporti
 - Open the project using your preferred code editor and inspect the code.
 -  Use the link to view the project -
 # Known bugs
-There are no known bugs in this project.
+-if you encounter an error saying "Module cannot be found 'cdbReact'" run this command in your terminal "npm i cdbreact".
 ## Technology used
 - HTML
 - CSS
 - REACTjs
 - Ruby On Rails
+- Bootstrap
 - SQL
 ## Licence
 MIT License
@@ -31,7 +34,7 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 ## Live link
--
+-No live link yet 
 ## Authors info
 Email- ian.chege@student.moringaschool.com
 Email- emmanue.kimweli@student.moringaschool.com
